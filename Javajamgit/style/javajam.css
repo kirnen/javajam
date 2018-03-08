@@ -1,0 +1,116 @@
+#wrapper {
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px 5px #777777;
+}
+#floatleft {
+    float:left 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+#heroroad {
+    background-image: url(../images/heroroad.jpg);
+    background-size: 100%;
+    height: 250px;
+
+}
+#heromugs {
+    background-image: url(../images/heromugs.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+#heroguitar {
+    background-image: url(../images/heroguitar.jpg);
+    background-size: 100%;
+    height: 250px;
+} 
+.navbar {
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+.navbar a{
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:link {
+    color: #f3f6c2 
+}
+.navbar a:visited {
+    color: #d2b48c;
+}
+.navbar a:hover {
+    color: #cc9933;
+}
+nav ul {
+    padding-left: 0;
+    list-style: none;
+}
+.footer {
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    background-color: #d2b49c;
+    padding-bottom: 10px;
+    border-top-color: 2px #221811;
+}
+.main1 {
+    margin-left: 200px;
+    padding-left: 0em;
+    padding-bottom: 2em;
+    padding-right: 0em;
+    display: block;
+    background-color: #fef6c2;
+}
+.main1 h2 h3 h4 p div ul dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+img {
+    padding-right:10px;
+    padding-left: 10px;
+}
+header {
+    background-image: url(../images/javajamlogo.jpg);
+    background-repeat: no-repeat;
+    background-color: #d2b48c;
+    height: 150px;
+}
+body {
+    background-image:url(../images/background.gif);
+    background-color: #fcebb6;
+    font-family: Arial, Helvetica, sans-serif
+}
+h1 {
+    color: #221811;
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+    text-align: center; 
+}
+h2 {
+    color: #221811;
+}
+h4 {
+    background-color: #d2b48c;
+    font-size: 1.0;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    text-transform: uppercase;
+    clear: left;
+}
+header, nav, main, footer {
+    display: block;
+}
